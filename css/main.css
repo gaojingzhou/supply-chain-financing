@@ -1,0 +1,65 @@
+body {
+    background-color:#F0F0F0;
+    padding: 2em;
+    font-family: 'Raleway','Source Sans Pro', 'Arial';
+}
+
+
+button {
+    margin: 2em 0;
+  	float: left;
+    padding: 2em 4em;
+    font-size: 10px;
+    background-color: #ffe9d4; 
+    color: rgb(95, 94, 93);
+  	border-radius: 30px;
+  	border: 0px;
+    display:block;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(65, 87, 216); 
+    color: rgb(255, 255, 255);
+}
+
+div {
+    margin: auto;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 20px; /* Firefox */
+    column-gap: 20px;
+} 
+
+@keyframes fade-in {  
+    0% {opacity: 0;}
+    40% {opacity: 0;}
+    100% {opacity: 0.8;}
+}  
+@-webkit-keyframes fade-in {
+    0% {opacity: 0;}  
+    40% {opacity: 0;}  
+    100% {opacity: 0.8;}  
+}  
+
+
+#content {    
+    animation: fade-in;
+    animation-duration: 1.5s;
+    -webkit-animation:fade-in 1.5s;
+}  
+
+h1 {
+    animation: fade-in;
+    animation-duration: 0.8s;
+    -webkit-animation:fade-in 0.8s;
+}
+
+h5 {
+    animation: fade-in;
+    animation-duration: 0.8s;
+    -webkit-animation:fade-in 0.8s;
+}
